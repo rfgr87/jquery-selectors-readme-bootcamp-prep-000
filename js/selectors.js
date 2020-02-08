@@ -20,7 +20,7 @@ function ninjaBabySelector(){
 
 function divSelector(){
   var div = [];
-  div = $(".pics");
+  div = $('.pics');
   return div;
   
 }
