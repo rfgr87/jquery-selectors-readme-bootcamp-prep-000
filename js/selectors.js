@@ -6,7 +6,7 @@ function paragraphSelector(){
   return ptags;
 }
 
-function ImageSelector(){
+function lastImageSelector(){
   var img;
   img = $('img:last');
   return  img
@@ -14,8 +14,15 @@ function ImageSelector(){
 
 function ninjaBabySelector(){
   var img;
-  img = $('baby-ninja');
+  img = $('#baby-ninja');
   return img;
+}
+
+function divSelector(){
+  var div;
+  div = $('div .pics');
+  return div;
+  
 }
 
 function firstListItem(){
