@@ -27,6 +27,6 @@ function divSelector(){
 
 function firstListItem(){
   var l;
-  l = $('li img:first-child');
+  l = $('ul li:first-child:img:first-child');
   return l;
 }
