@@ -12,3 +12,7 @@ function ImageSelector(){
   return  img
 }
 
+function ninjaBabySelector(){
+  var img;
+  img = $()
+}
