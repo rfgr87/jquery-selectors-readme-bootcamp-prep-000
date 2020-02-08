@@ -8,5 +8,7 @@ function paragraphSelector(){
 
 function ImageSelector(){
   var img;
-  img $()
+  img = $('img:last');
+  return  img
 }
+
