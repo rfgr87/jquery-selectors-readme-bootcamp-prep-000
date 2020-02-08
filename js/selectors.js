@@ -14,5 +14,12 @@ function ImageSelector(){
 
 function ninjaBabySelector(){
   var img;
-  img = $()
+  img = $('baby-ninja');
+  return img;
+}
+
+function firstListItem(){
+  var l;
+  l = $('ul pic-list:first-child');
+  return l;
 }
