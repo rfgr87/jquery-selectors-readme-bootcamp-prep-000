@@ -20,7 +20,7 @@ function ninjaBabySelector(){
 
 function divSelector(){
   var div = [];
-  div = $("div[alt='pics']");
+  div = $("div ");
   return div;
   
 }
