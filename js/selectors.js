@@ -19,7 +19,7 @@ function ninjaBabySelector(){
 }
 
 function divSelector(){
-  var div;
+  var div = [];
   div = $('div .pics');
   return div;
   
